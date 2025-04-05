@@ -63,6 +63,7 @@ After reviewing existing research and the [Audio Deepfake Detection Repository](
 - **Architecture**:
     - Adaptation of ResNet-18 for binary classification (tampered vs. untampered).
     - Fine-tuning with early stopping.
+    - 
 
 ---
 
@@ -104,12 +105,21 @@ After reviewing existing research and the [Audio Deepfake Detection Repository](
     pip install -r requirements.txt
     ```
 
-### **Dataset Preparation**
-1. Place the CMFD dataset ZIP file in the repository root directory.
-2. Run the preprocessing script to extract and organize data:
+## **Dataset**
+- The dataset used for this project is the **CMFD (Chinese-English Fake Detection)** dataset.
+- It contains `.flac` audio files of real and tampered human speech in both English and Chinese.
+- You can download the dataset directly from the following GitHub repository:  
+  [CMFD Dataset Repository](https://github.com/WuQinfang/CMFD)
+
+### **Steps to Use the Dataset**
+1. Visit the dataset repository and download the ZIP file containing the audio files.
+2. Place the ZIP file in the root directory of this project.
+3. Run the provided preprocessing script to extract and organize the data for training and testing:
     ```bash
     python preprocess_data.py
     ```
+
+---
 
 ### **Run Training**
 1. Open the `Implementation.ipynb` file.
