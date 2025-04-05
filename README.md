@@ -95,8 +95,9 @@ After reviewing existing research and the [Audio Deepfake Detection Repository](
 ### **Prerequisites**
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/repository-name.git
-    cd repository-name
+    git clone https://github.com/DANUSHMATHI2002/Momenta_Task.git
+    cd Momenta_Task
+
     ```
 2. **Install Dependencies**
     ```bash
